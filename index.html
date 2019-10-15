@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <title></title> <!-- Название страницы -->
+    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="assets/css/media.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Rubik&display=swap" rel="stylesheet">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+
+    <header>
+        <div class="container">
+            <a href="index.html" class="logo"><script>document.write(document.domain)</script></a>
+            <p class="quote"></p>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+            <h1>Cordon-blue from chicken breasts</h1>
+
+            <img src="assets/img/1.jpg" alt="Nature">
+
+            <p class="main__p">Cut 3 chicken fillets along the length to make 6 chicken chops
+
+The fillet's a little bit of a hit, but not too much, it shouldn't be too thin, salt, pepper.
+For each layer of fillet, lay out a thinly cut slice of ham and cheese, slightly smaller in size.
+
+Turn into a roll, if necessary, fasten with a toothpick
+
+Mix 3 tablespoons of flour and 1 tablespoon of paprika in a bowl and roll up chicken rolls
+
+Melt 6 tablespoons of butter in a pan and fry the rolls on both sides
+
+Wash the rolls directly in the frying pan with 1/2 cups of dry wine and add 1 pint.
+any chicken seasoning, cover with lid and stew for 30 minutes.
+
+Mix 1 tbsp with 1 cup of cream of any fat content
+
+Take roasted rolls out of the frying pan on a dish
+Pour cream with starch in a thin stream onto the frying pan and stir the juice until the sauce thickens.
+
+Pour the sauce over the rolls on the dish and sprinkle a little paprika on top.</p>
+
+            <a href="OrderForm.html" class="main__btn">GET RECIPE</a>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <a href="Privacy_Policy.html">Privacy Policy</a>
+        </div>
+    </footer>
+
+    <script src="assets/js/main.js"></script>
+    <script>
+        var h1 = document.getElementsByTagName("h1")[0].innerHTML;
+        var image = document.getElementsByTagName("img")[0].src;
+        sessionStorage.setItem("h1", h1);
+        sessionStorage.setItem("image", image);
+    </script>
+
+</body>
+</html>
